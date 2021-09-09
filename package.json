@@ -1,0 +1,24 @@
+{
+  "name": "advertising-hub-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Rokib Hassan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.8",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12",
+    "postman-request": "^2.88.1-postman.30",
+    "validator": "^13.6.0"
+  }
+}
